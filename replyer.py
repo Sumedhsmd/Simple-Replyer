@@ -4,7 +4,7 @@ window = Tk()
 
 window.geometry('300x100')
 
-replyes = {'how are you': "I'm Good !!!", 'hello': 'Heyy !!!', 'hi': 'Heyy', 'bye': 'Okay, Bye'}
+replyes = {'how are you': "I'm Good !!!", 'hello': 'Heyy !!!', 'hi': 'Heyy', 'bye': 'Okay, Bye', 'see you':'bye'}
 
 # while True:
 #     ask = input(' \t > ')
@@ -27,7 +27,7 @@ def clicked():
     if new_inp in replyes.keys():
         com_rep.configure(text=f'{replyes[new_inp]}')
     else:
-        com_rep.configure(text='Hmmm')
+        com_rep.configure(text='Hmm')
 
 user_btn = Button(window, text='Submit', bg='white',fg='blue',command=clicked)
 user_btn.grid(column=1,row=0)
