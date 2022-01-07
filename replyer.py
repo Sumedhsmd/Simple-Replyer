@@ -4,7 +4,7 @@ window = Tk()
 
 window.geometry('300x100')
 
-replyes = {'how are you': "I'm Good !!!", 'hello': 'Heyy !!!', 'hi': 'Heyy'}
+replyes = {'how are you': "I'm Good !!!", 'hello': 'Heyy !!!', 'hi': 'Heyy', 'bye': 'Okay, Bye'}
 
 # while True:
 #     ask = input(' \t > ')
